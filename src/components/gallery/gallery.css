@@ -1,0 +1,13 @@
+.gallery-container {
+  padding: 20px 40px 20px 40px;
+}
+.group_info_detail {
+  padding-top: 60px;
+}
+.group_info_body {
+  display: flex;
+  justify-content: space-between;
+}
+.gallery-grid-list {
+  padding-top: 30px;
+}
