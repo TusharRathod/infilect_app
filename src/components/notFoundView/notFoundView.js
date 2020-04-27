@@ -3,10 +3,6 @@ import Link from "@material-ui/core/Link";
 import "./notFoundView.css";
 
 class NotFoundView extends Component {
-  constructor(props) {
-    super(props);
-    this.state = {};
-  }
   toGroups = () => {
     this.props.history.push("/groups");
   };

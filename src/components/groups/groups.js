@@ -18,6 +18,8 @@ import { search_group } from "../../services/axios/services";
 import { Pie } from "react-chartjs-2";
 import "./groups.css";
 
+//these are the api perameter.
+
 const api_key = "b7536fe05933a39887d06b8860742e25";
 const per_page = 20;
 const page = 1;

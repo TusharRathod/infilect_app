@@ -61,11 +61,11 @@ class Gallery extends Component {
     this.getGalleryData(id);
   };
   groupInfo = (group_id) => {
-    this.setState({ loader: true });
+    this.setState({ loader: true }); //loader start...
     group_info({ api_key, group_id }) //call group info api from services.js
       .then((res) => {
         if (res.data.stat === "ok") {
-          this.setState({ groupInfo: res.data.group, loader: false });
+          this.setState({ groupInfo: res.data.group, loader: false }); //loader stop
         } else if (res.data.stat === "fail") {
           this.setState({ errorMsg: res.data.message, stat: res.data.stat });
         }
